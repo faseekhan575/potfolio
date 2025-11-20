@@ -370,7 +370,7 @@ function App() {
 
           <div className='flex flex-col w-full gap-7 mt-10'>
 
-            {/* HTML */}
+          
             <div className='flex justify-center items-center flex-col w-full'>
               <h1 className='text-orange-500 flex w-[70%] justify-start font-bold text-2xl'>HTML</h1>
               <div className='bg-gray-700 w-[70%] h-4 rounded-full mt-3 overflow-hidden relative'>
@@ -385,7 +385,7 @@ function App() {
               <h1 className='text-orange-500 flex w-[70%] justify-end font-bold text-2xl mt-2'>98%</h1>
             </div>
 
-            {/* CSS */}
+           
             <div className='flex justify-center items-center flex-col w-full'>
               <h1 className='text-orange-500 flex w-[70%] justify-start font-bold text-2xl'>CSS</h1>
               <div className='bg-gray-700 w-[70%] h-4 rounded-full mt-3 overflow-hidden relative'>
@@ -400,7 +400,7 @@ function App() {
               <h1 className='text-orange-500 flex w-[70%] justify-end font-bold text-2xl mt-2'>95%</h1>
             </div>
 
-            {/* JAVASCRIPT */}
+           
             <div className='flex justify-center items-center flex-col w-full'>
               <h1 className='text-orange-500 flex w-[70%] justify-start font-bold text-2xl'>JAVASCRIPT</h1>
               <div className='bg-gray-700 w-[70%] h-4 rounded-full mt-3 overflow-hidden relative'>
@@ -415,7 +415,7 @@ function App() {
               <h1 className='text-orange-500 flex w-[70%] justify-end font-bold text-2xl mt-2'>85%</h1>
             </div>
 
-            {/* TAILWIND */}
+            
             <div className='flex justify-center items-center flex-col w-full'>
               <h1 className='text-orange-500 flex w-[70%] justify-start font-bold text-2xl'>TAILWIND</h1>
               <div className='bg-gray-700 w-[70%] h-4 rounded-full mt-3 overflow-hidden relative'>
@@ -430,7 +430,7 @@ function App() {
               <h1 className='text-orange-500 flex w-[70%] justify-end font-bold text-2xl mt-2'>80%</h1>
             </div>
 
-            {/* REACT */}
+            
             <div className='flex justify-center items-center flex-col w-full'>
               <h1 className='text-orange-500 flex w-[70%] justify-start font-bold text-2xl'>REACT</h1>
               <div className='bg-gray-700 w-[70%] h-4 rounded-full mt-3 overflow-hidden relative'>
@@ -460,7 +460,7 @@ function App() {
               <h1 className='text-orange-500 flex w-[70%] justify-end font-bold text-2xl mt-2'>87%</h1>
             </div>
 
-            {/* PYTHON */}
+           
             <div className='flex justify-center items-center flex-col w-full'>
               <h1 className='text-orange-500 flex w-[70%] justify-start font-bold text-2xl'>PYTHON</h1>
               <div className='bg-gray-700 w-[70%] h-4 rounded-full mt-3 overflow-hidden relative'>
@@ -475,7 +475,7 @@ function App() {
               <h1 className='text-orange-500 flex w-[70%] justify-end font-bold text-2xl mt-2'>70%</h1>
             </div>
 
-            {/* GITHUB | DEPLOY */}
+            
             <div className='flex justify-center items-center flex-col w-full'>
               <h1 className='text-orange-500 flex w-[70%] justify-start font-bold text-2xl'>GITHUB | DEPLOY</h1>
               <div className='bg-gray-700 w-[70%] h-4 rounded-full mt-3 overflow-hidden relative'>
@@ -781,7 +781,7 @@ function App() {
           >
 
             <SwiperSlide>
-              {/* Custom Pagination - placed below the slider */}
+            
 
               <div className='h-[540px]  w-full max-w-[500px]  border-orange-500 border-2 rounded-xl '>
                 <div className='h-[250px] w-full md:px-4 px-8'>
@@ -1080,30 +1080,30 @@ function App() {
         </div>
 
        <div className="relative w-full h-full">
-  {/* Background Image */}
+
   <img
     className="w-full h-full  opacity-14 absolute inset-0 object-contain"
     src="myes.jfif"
     alt=""
   />
 
-  {/* Content */}
+ 
   <div className="relative z-10 w-full flex flex-col items-center pt-20 pb-24 px-4">
 
-    {/* Heading */}
+  
     <h1 className="text-5xl font-extrabold text-center text-black tracking-wide">
       <span className="text-orange-500">CONTACT-US</span> 
     </h1>
 
-    {/* Orange Underline */}
+    
    
 
-    {/* Subheading */}
+    
     <p className="text-xl text-gray-200 mt-8 text-center">
       Drop A Message! Let’s <span className="text-orange-500 font-semibold">Work</span> Together
     </p>
 
-    {/* Form */}
+   
     <div className="w-full max-w-2xl mt-12">
       <label className="block text-gray-300 text-lg mb-1">Name:</label>
       <input
