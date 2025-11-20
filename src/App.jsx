@@ -1186,7 +1186,6 @@ function App() {
       </a>
     </div>
 
-    {/* Copyright */}
     <p className="text-xs text-gray-600">
       © {new Date().getFullYear()} FASEE KHAN. All rights reserved.
     </p>
