@@ -13,7 +13,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
+import toast from 'react-hot-toast'
 
 
 
@@ -24,6 +24,9 @@ import 'swiper/css/scrollbar';
 
 
 function App() {
+
+
+  
   function TypingAnimation() {
     const phrases = ["WEB DEVELOPER", "REACT DEVELOPER", "STANFORD INSTUCTOR"];
 
@@ -70,7 +73,20 @@ function App() {
     );
   }
 
+ const handleDownload = () => {
+    toast.success('CV Downloaded Successfully....', {
+      
+      duration: 3000,
+      style: {
+        background: '#fa5f01',
+        color: 'black',
+        fontWeight: 'bolder',
+      },
+    });
+  };
+
   return (
+    
     <>
       <navbar>
         <div className='flex flex-col justify-center items-center md:flex-row md:justify-around'>
@@ -820,7 +836,7 @@ function App() {
                   </div>
                   <div className='flex justify-between mt-4'>
                     <a
-                      href="wechat-c.netlify.app"
+                      href="https://wechat-c.netlify.app"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-orange-500 font-black text-2xl tracking-wide flex items-center gap-3 relative"
@@ -887,7 +903,7 @@ function App() {
                 </div>
                 <div className='flex justify-between mt-4'>
                   <a
-                    href="nike-clone-1.netlify.app"
+                    href="https://nike-clone-1.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-orange-500 font-black text-2xl tracking-wide flex items-center gap-3 relative"
@@ -953,7 +969,7 @@ function App() {
                 </div>
                 <div className='flex justify-between mt-4'>
                   <a
-                    href="x-cloness.netlify.app"
+                    href="https://x-cloness.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-orange-500 font-black text-2xl tracking-wide flex items-center gap-3 relative"
@@ -1018,7 +1034,7 @@ function App() {
                 </div>
                 <div className='flex justify-between mt-4'>
                   <a
-                    href="fasee-keyboard.netlify.app"
+                    href="https://fasee-keyboard.netlify.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-orange-500 font-black text-2xl tracking-wide flex items-center gap-3 relative"
@@ -1197,8 +1213,10 @@ function App() {
 
 
 <div className="fixed bottom-5 left-4 md:left-8 z-50">
+  
   <a
-    href="/FaseeKhan_Resume.pdf"   
+    onClick={handleDownload }
+    href="FASEE-KHAN-CV.pdf"   
     download
     className="
       group relative flex items-center gap-3 
@@ -1208,7 +1226,11 @@ function App() {
       transition-all duration-300 
       hover:bg-orange-500 hover:scale-110
     "
+    
   >
+    
+    
+    
  
     <span className="relative z-10">Download CV</span>
 
