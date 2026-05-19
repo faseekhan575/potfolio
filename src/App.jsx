@@ -1,14 +1,16 @@
-import { useState, useRef } from 'react'
-import { useEffect } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { motion } from "motion/react"
+
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
 import toast from 'react-hot-toast'
-    import emailjs from '@emailjs/browser'; // add at top of file
+import emailjs from '@emailjs/browser';
 
 /* ═══════════════════════════════════════════════════
    REUSABLE: CROWN SVG
